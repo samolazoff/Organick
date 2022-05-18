@@ -1,0 +1,27 @@
+{
+  "name": "organick",
+  "version": "0.1.0",
+  "description": "��1\u0000.\u0000 \u0000H\u0000T\u0000M\u0000L\u00005\u0000 \u0000/\u0000 \u0000P\u0000U\u0000G\u0000\r\u0000 \u00002\u0000.\u0000 \u0000C\u0000S\u0000S\u00003\u0000 \u0000/\u0000 \u0000S\u0000A\u0000S\u0000S\u0000\r\u0000 \u0000 \u0000 \u0000 \u0000 \u00002\u0000.\u00001\u0000.\u0000 \u0000F\u0000l\u0000e\u0000x\u0000b\u0000o\u0000x\u0000 \u0000l\u0000a\u0000y\u0000o\u0000u\u0000t\u0000\r\u0000 \u00003\u0000.\u0000 \u0000J\u0000S\u0000\r\u0000 \u00004\u0000.\u0000 \u0000G\u0000U\u0000L\u0000P\u0000\r\u0000 \u0000",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samolazoff/Organick.git"
+  },
+  "author": "Samolazoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samolazoff/Organick/issues"
+  },
+  "homepage": "https://github.com/samolazoff/Organick#readme"
+}

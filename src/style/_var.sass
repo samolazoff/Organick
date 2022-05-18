@@ -1,0 +1,18 @@
+// color
+$dark-txt:#274C5B
+$white: #FFFFFF
+$orange: #EFD372
+$green: #7EB693
+
+// MIXINS
+@mixin flex($cr,$main,$dop)
+    display: flex
+    flex-direction: $cr
+    justify-content: $main
+    align-items: $dop
+
+@mixin txt($weight,$size,$height,$color)
+    font-weight: $weight
+    font-size: $size
+    line-height: $height
+    color: $color
