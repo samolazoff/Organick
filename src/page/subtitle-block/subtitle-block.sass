@@ -1,0 +1,23 @@
+.subtitle-block
+    height: 500px
+    @include flex(column,center,center)
+    background-color: $white
+.subtitle-block-cont
+    width: 100%
+    @include flex(row,space-between,center)
+.card
+    width: 48%
+    height: 378px
+    padding: 20px
+    @include flex(column,center,flex-start)
+    border-radius: 30px
+    .block__subname
+        width: 305px
+        @include txt(400,48px,52px,$dark-txt)
+.card_natural
+    background-image: url(../static/img/bg-subtitle-block_1.png)
+    .block__name,
+    .block__subname
+        color: $white
+.card_offer
+    background-image: url(../static/img/bg-subtitle-block_2.png)
