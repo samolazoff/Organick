@@ -3,6 +3,7 @@
 body
     background-color: $body-color
 @import ../page/header/header
+@import ../page/title-block/title-block
 .wrap
     max-width: 1400px
     margin: 0 auto
@@ -10,3 +11,12 @@ body
     padding: 0 40px
 .none
     display: none
+.block__name
+    font-family: 'Inter', sans-serif
+    @include txt(400,36px,65px,$green)
+    margin-bottom: 25px
+.block__subname
+    margin-bottom: 40px
+    font-family: 'Roboto', sans-serif
+    @include txt(700,45px,58px,$dark-txt)
+    

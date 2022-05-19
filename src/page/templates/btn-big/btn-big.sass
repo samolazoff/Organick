@@ -1,0 +1,19 @@
+.btn-big
+    @include flex(row,center,center)
+    padding: 10px 20px
+    border-radius: 16px
+    background-color: $dark-txt
+    @include txt(400,19px,32px,$white)
+    font-family: 'Roboto', sans-serif
+    text-transform: capitalize
+    span
+        padding: 0 20px
+.btn-big_yellow
+    background-color: $orange
+    color: $dark-txt
+.bg-arrow
+    width: 38px
+    height: 34px
+    @include flex(column,center,center)
+    background-color: $bg-arrow
+    border-radius: 50%
