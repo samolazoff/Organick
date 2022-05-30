@@ -1,0 +1,15 @@
+mixin card(products)
+    .products-box-card 
+        button.products-box-card__btn=products.cardBtn
+        img.products-box-card__img(src=products.cardImg, alt="brocolli.png")
+        span.products-box-card__name=products.cardName
+        .products-cost
+            div.costs
+                span.cost.cost_main=products.costMain
+                span.cost=products.cost
+            .star
+                img.img-star_active(src="static/img/star.svg", alt="star")
+                img.img-star_active(src="static/img/star.svg", alt="star")
+                img.img-star_active(src="static/img/star.svg", alt="star")
+                img.img-star_active(src="static/img/star.svg", alt="star")
+                img.img-star_active(src="static/img/star.svg", alt="star")
