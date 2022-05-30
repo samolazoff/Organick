@@ -232,6 +232,48 @@ body {
   background-image: url(../static/img/bg-subtitle-block_2.png);
 }
 
+.about-us {
+  background-color: #E5E5E5;
+}
+
+.about-us-cont {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us-cont h3 {
+  width: 521px;
+}
+
+.about-us_txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #274C5B;
+  letter-spacing: 1.2px;
+  color: #525C60;
+}
+
+.about-us-info-mini__title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #274C5B;
+}
+
+.about-us-info-mini {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us-info-mini div {
+  padding: 20px;
+}
+
 .none {
   display: none;
 }
