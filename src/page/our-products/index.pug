@@ -1,0 +1,10 @@
+include ../mixin-pug/card
+include ../data
+section.our-products.wrap
+    .our-products-cont.pm
+        h2.block__name Organic
+        h3.block__subname Our Products
+        .products-box
+            each product, position in products
+                each elm in product
+                    +card(elm)
