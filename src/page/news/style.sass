@@ -1,0 +1,36 @@
+.news-cont
+    padding-top: 50px
+    padding-bottom: 50px
+.news-box
+    @include flex(row,space-between,center)
+    flex-wrap: wrap
+.news-card
+    position: relative
+    max-width: 600px
+    padding: 40px 0
+.news-card-cont
+    position: absolute
+    top: 40%
+    left: 5%
+    @include flex(column,space-between,flex-start)
+    width: 530px
+    height: 300px
+    padding: 30px 20px
+    background-color: $white
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14)
+    border-radius: 30px
+.bg-news__img
+    width: 100%
+.news-card-name-box__img
+    padding: 0 10px
+.news-card__name
+    @include txt(700,25px,35px,$dark-txt)
+.news-card-name-box__name
+    @include txt(400,17px,23px,$dark-txt)
+.news-card__txt
+    width: 75%
+    @include txt(400,18px,32px,$txt)
+.news-card__btn
+    width: 25%
+    @include flex(row,space-between,center)
+    @include txt(400,20px,28px,$dark-txt)

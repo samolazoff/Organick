@@ -1,0 +1,13 @@
+mixin newsCard(dataNews)
+    artical.news-card 
+        .bg-news
+            img.bg-news__img(src=dataNews.bgNews, alt="bgNews.png")
+        .news-card-cont
+            .news-card-name-box 
+                img.news-card-name-box__img(src="static/img/person.svg", alt="person.svg")
+                span.news-card-name-box__name=dataNews.namePerson 
+            h3.news-card__name=dataNews.nameNews
+            p.news-card__txt=dataNews.newsTxt
+            button.news-card__btn
+                span View More
+                img(src="static/img/mini-arrow.svg", alt="mini-arrow.svg")
