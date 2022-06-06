@@ -428,6 +428,127 @@ body {
   color: #274C5B;
 }
 
+.contacts {
+  background-color: #FFFFFF;
+}
+
+.contacts-cont {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacts-form-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 320px;
+  padding: 0 40px;
+  background-image: url(../static/img/Subscribe.png);
+}
+.contacts-form-box .block__subname {
+  color: #FFFFFF;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe__form .btn-big {
+  height: 82px;
+}
+
+.contacts-form___mail {
+  width: 350px;
+  height: 82px;
+  padding: 0 20px;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #525C60;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 16px;
+}
+
+.contacts-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 25%;
+}
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.contact-block__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #525C60;
+}
+
+.contact-block__txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #525C60;
+}
+
+.contacts-block-soc {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  border-left: 1px solid #D5D5D5;
+  border-right: 1px solid #D5D5D5;
+}
+.contacts-block-soc .logo {
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+
+.contacts-block-link {
+  width: 25%;
+}
+
+.contacts-block-soc-link-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soc-link-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #EFF6F1;
+}
+
 .none {
   display: none;
 }
