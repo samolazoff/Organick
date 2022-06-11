@@ -477,8 +477,9 @@ body {
 .contacts-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .contact-us {
@@ -487,6 +488,7 @@ body {
   justify-content: flex-start;
   align-items: flex-end;
   width: 25%;
+  margin: 0 20px;
 }
 
 .contact-block {
@@ -519,7 +521,6 @@ body {
   align-items: center;
   padding: 0 20px;
   border-left: 1px solid #D5D5D5;
-  border-right: 1px solid #D5D5D5;
 }
 .contacts-block-soc .logo {
   margin-bottom: 25px;
@@ -547,6 +548,13 @@ body {
   margin: 10px;
   border-radius: 50%;
   background-color: #EFF6F1;
+}
+
+.contacts-block-soc__txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #525C60;
 }
 
 .none {
