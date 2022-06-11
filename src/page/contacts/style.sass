@@ -24,10 +24,12 @@
     border: 1px solid #CCCCCC
     border-radius: 16px
 .contacts-box 
-    @include flex(row,space-between,center)
+    @include flex(row,center,center)
+    margin-top: 50px
 .contact-us
     @include flex(column,flex-start,flex-end)
     width: 25%  
+    margin: 0 20px
 .contact-block
     @include flex(column,flex-start,flex-end)
     margin-bottom: 25px
@@ -40,7 +42,6 @@
     @include flex(column,flex-start,center)
     padding:0 20px
     border-left: 1px solid #D5D5D5
-    border-right: 1px solid #D5D5D5
     .logo
         margin-bottom: 25px
         padding-top: 10px
@@ -55,3 +56,5 @@
     margin: 10px
     border-radius: 50%
     background-color: #EFF6F1
+.contacts-block-soc__txt
+    @include txt(400,18px,32px,$txt)
