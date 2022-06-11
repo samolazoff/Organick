@@ -557,6 +557,28 @@ body {
   color: #525C60;
 }
 
+.footer-page {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-top: 1px solid #D5D5D5;
+}
+
+.footer__txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #525C60;
+  letter-spacing: 0.36px;
+}
+
+.footer__link {
+  color: #274C5B;
+}
+
 .none {
   display: none;
 }
