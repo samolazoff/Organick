@@ -1,0 +1,58 @@
+@media screen and (max-width:1200px)
+    .btn-main
+        width: 125px
+        height: 60px
+        border-radius: 25px 
+    .nav-header
+        padding: 0 10px    
+@media screen and (max-width:992px)
+    .btn-main
+        width: 110px
+        height: 50px
+        margin-left: 5px
+        border-radius: 20px 
+    .hamburger
+       display: block
+       align-self: flex-end
+       margin: 20px
+    .nav-header
+        display: none
+        ul
+            @include flex(column,flex-start,center)
+            @include txt(400,20px,32px,$dark-txt)
+    .block-menu
+        position: absolute
+        top: 0
+        right: 0
+        flex-direction: column
+        justify-content: flex-start
+    .btn-main-box
+        display: none
+        flex-direction: column
+        justify-content: flex-start
+        button
+            margin: 10px
+@media screen and (max-width:768px)
+    .btn-main
+        width: 110px
+        height: 50px
+        margin-left: 5px
+        border-radius: 20px 
+    .nav-header
+        padding: 0 10px
+@media screen and (max-width:576px)
+    .btn-main
+        width: 110px
+        height: 50px
+        margin-left: 5px
+        border-radius: 20px 
+    .nav-header
+        padding: 0 10px
+.none
+    display: none
+.active
+    display: block
+.block-menu_active
+    width: 320px
+    height: 100vh
+    background-color: $body-color
