@@ -208,7 +208,7 @@ body {
 }
 
 .title-block {
-  height: 910px;
+  height: 90vh;
   background-image: url(../static/img/bg-home-block.png);
 }
 
@@ -229,7 +229,7 @@ body {
 }
 
 .subtitle-block {
-  height: 500px;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -247,7 +247,7 @@ body {
 
 .card {
   width: 48%;
-  height: 378px;
+  height: 50vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -282,9 +282,12 @@ body {
 .about-us-cont {
   paddin-top: 50px;
   padding-bottom: 50px;
+  background-image: url(../static/img/about-us.png);
+  background-repeat: no-repeat;
+  background-position: left center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 .about-us-cont h3 {
@@ -298,6 +301,10 @@ body {
   color: #274C5B;
   letter-spacing: 1.2px;
   color: #525C60;
+}
+
+.about-us-info {
+  width: 50%;
 }
 
 .about-us-info-mini__title {
@@ -672,6 +679,16 @@ body {
   .btn-main-box button {
     margin: 10px;
   }
+  .subtitle-block {
+    height: 90vh;
+  }
+  .card {
+    width: 48%;
+    height: 40vh;
+  }
+  .about-us-info {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 768px) {
   .btn-main {
@@ -683,8 +700,23 @@ body {
   .nav-header {
     padding: 0 10px;
   }
+  .subtitle-block-cont {
+    flex-direction: column;
+  }
+  .card {
+    width: 500px;
+    height: 40vh;
+    margin-bottom: 20px;
+  }
+  .about-us-info {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 576px) {
+  .block__name {
+    font-size: 24px;
+    line-height: 38px;
+  }
   .btn-main {
     width: 110px;
     height: 50px;
@@ -693,6 +725,48 @@ body {
   }
   .nav-header {
     padding: 0 10px;
+  }
+  .title-block-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .title-block-cont .block__subname {
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #274C5B;
+    letter-spacing: -1.64px;
+  }
+  .card {
+    width: 90%;
+    height: 30vh;
+  }
+  .card .block__subname {
+    width: 100%;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #274C5B;
+    letter-spacing: -1.64px;
+  }
+  .about-us-cont h3 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -1.64px;
+  }
+  .about-us-cont .about-us-info-mini_img {
+    display: none;
+  }
+  .our-products-cont h3 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -1.64px;
   }
 }
 .none {
