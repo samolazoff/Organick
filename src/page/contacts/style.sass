@@ -5,6 +5,7 @@
     padding-bottom: 50px
 .contacts-form-box
     @include flex(row,space-between,center)
+    flex-wrap: wrap
     height: 320px
     padding: 0 40px
     background-image: url(../static/img/Subscribe.png)
@@ -12,6 +13,7 @@
         color: $white
 .subscribe__form
     @include flex(row,space-between,center)
+    flex-wrap: wrap
     .btn-big
         height: 82px
 .contacts-form___mail
@@ -25,10 +27,11 @@
     border-radius: 16px
 .contacts-box 
     @include flex(row,center,center)
+    flex-wrap: wrap
     margin-top: 50px
 .contact-us
     @include flex(column,flex-start,flex-end)
-    width: 25%  
+    width: 300px  
     margin: 0 20px
 .contact-block
     @include flex(column,flex-start,flex-end)

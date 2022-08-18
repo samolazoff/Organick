@@ -55,6 +55,14 @@
         margin-bottom: 20px  
     .about-us-info
         width: 100%
+    .news-card-cont
+        width: 90%
+    .news-card__btn
+        width: 30%
+    .contacts-form-box
+        display: none
+    .contacts-block-soc
+        border: none
 @media screen and (max-width:576px)
     .block__name
         font-size: 24px
@@ -94,6 +102,30 @@
             font-size: 36px
             line-height: 36px
             letter-spacing: -1.64px
+    .news-card-cont
+        width: 90%
+        height: 200px
+    .news-card__name
+        @include txt(700,18px,18px,$dark-txt)
+    .news-card-name-box__name
+        @include txt(400,14px,23px,$dark-txt)
+    .news-card__txt
+        @include txt(400,14px,14px,$txt)
+    .news-card__btn
+        width: 50%
+        @include flex(row,space-between,center)
+        @include txt(400,14px,14px,$dark-txt)
+    .block__subname
+        font-size: 32px
+        line-height: 24px
+    .contact-us
+        @include flex(column,flex-start,flex-start)
+    .contact-block
+        @include flex(column,flex-start,flex-start)
+    .contacts-block-soc__txt
+       padding: 0 10px
+    .footer__txt
+        @include txt(400,12px,24px,$txt)
 .none
     display: none
 .active
