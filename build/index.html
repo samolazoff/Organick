@@ -89,43 +89,49 @@
         <div class="our-products-cont pm">
           <h2 class="block__name">Organic</h2>
           <h3 class="block__subname">Our Products</h3>
+          <div class="block-btn-choise"> 
+            <button class="products-box-card__btn" data-category="Mill">Mill</button>
+            <button class="products-box-card__btn" data-category="Vegatable">Vegatable</button>
+            <button class="products-box-card__btn" data-category="Fru">Fru</button>
+            <button class="products-box-card__btn" data-category="All">All</button>
+          </div>
           <div class="products-box">
-                  <div class="products-box-card"> 
+                  <div class="products-box-card" data-category="Vegatable">
                     <button class="products-box-card__btn">Vegatable</button><img class="products-box-card__img" src="static/img/brocolli.png" alt="brocolli.png"><span class="products-box-card__name">Calabrese Broccoli</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 25.00 USD</span><span class="cost">$ 21.00 USD</span></div>
                       <div class="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"></div>
                     </div>
                   </div>
-                  <div class="products-box-card"> 
+                  <div class="products-box-card" data-category="Vegatable">
                     <button class="products-box-card__btn">Vegatable</button><img class="products-box-card__img" src="static/img/corn.png" alt="brocolli.png"><span class="products-box-card__name">Fresh Corn</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 21.23 USD</span><span class="cost">$ 18.00 USD</span></div>
                       <div class="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"></div>
                     </div>
                   </div>
-                  <div class="products-box-card"> 
+                  <div class="products-box-card" data-category="Mill">
                     <button class="products-box-card__btn">Mill</button><img class="products-box-card__img" src="static/img/dried.png" alt="brocolli.png"><span class="products-box-card__name">Dried Pistachio</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 61.00 USD</span><span class="cost">$ 48.00 USD</span></div>
                       <div class="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"></div>
                     </div>
                   </div>
-                  <div class="products-box-card"> 
-                    <button class="products-box-card__btn">Vegetable</button><img class="products-box-card__img" src="static/img/tomato.png" alt="brocolli.png"><span class="products-box-card__name">Vegan Red Tomato</span>
+                  <div class="products-box-card" data-category="Vegatable">
+                    <button class="products-box-card__btn">Vegatable</button><img class="products-box-card__img" src="static/img/tomato.png" alt="brocolli.png"><span class="products-box-card__name">Vegan Red Tomato</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 14.00 USD</span><span class="cost">$ 9.37 USD</span></div>
                       <div class="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"></div>
                     </div>
                   </div>
-                  <div class="products-box-card"> 
+                  <div class="products-box-card" data-category="Fru">
                     <button class="products-box-card__btn">Fru</button><img class="products-box-card__img" src="static/img/organick_almd.png" alt="brocolli.png"><span class="products-box-card__name">Organic Almonds</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 21.00 USD</span><span class="cost">$ 18.00 USD</span></div>
                       <div class="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"><img class="img-star_active" src="static/img/star.svg" alt="star"></div>
                     </div>
                   </div>
-                  <div class="products-box-card"> 
+                  <div class="products-box-card" data-category="Mill">
                     <button class="products-box-card__btn">Mill</button><img class="products-box-card__img" src="static/img/brownHazelnut.png" alt="brocolli.png"><span class="products-box-card__name">Brown Hazelnut</span>
                     <div class="products-cost">
                       <div class="costs"><span class="cost cost_main">$ 43.00 USD</span><span class="cost">$ 34.00 USD</span></div>
@@ -199,5 +205,6 @@
     </main>
     <footer class="footer-page wrap pm"><span class="footer__txt">Copyright © Organick | Designed by VictorFlow - Powered by<a class="footer__link" href="#"> Webflow</a></span></footer>
     <script defer src="js/header.js"></script>
+    <script defer src="js/choiseProduct.js"></script>
   </body>
 </html>

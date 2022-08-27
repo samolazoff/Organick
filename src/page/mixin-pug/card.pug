@@ -1,5 +1,5 @@
 mixin card(products)
-    .products-box-card 
+    .products-box-card(data-category=products.cardBtn)
         button.products-box-card__btn=products.cardBtn
         img.products-box-card__img(src=products.cardImg, alt="brocolli.png")
         span.products-box-card__name=products.cardName
