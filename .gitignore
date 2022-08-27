@@ -1,8 +1,0 @@
-# Folders npm
-node_modules
-
-# File npm
-package-lock.json
-
-# File Vscode
-.vscode
