@@ -656,6 +656,7 @@ body {
 }
 
 .clock-face-box {
+  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -675,11 +676,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: 5px;
   padding: 5px;
   border: solid 1.5px black;
+  border-radius: 10px;
+  background-color: #fff;
 }
 .timer-block span {
   font-weight: 700;
@@ -748,6 +751,29 @@ body {
   }
   .about-us-info {
     width: 70%;
+  }
+  .clock-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .clock-txt-cont {
+    width: 100%;
+  }
+  .clock-face-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -897,6 +923,26 @@ body {
     font-size: 12px;
     line-height: 24px;
     color: #525C60;
+  }
+  .timer-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .timer-block span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #525C60;
+    margin-bottom: 10px;
   }
 }
 .none {

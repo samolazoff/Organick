@@ -5,17 +5,20 @@
 .clock__txt
     @include txt(700,20px,30px,$txt) 
 .clock-face-box
+    width: 600px
     @include flex(column,flex-start,center)
 .timer
     @include flex(row,space-around,center)
     width: 100%
 .timer-block
     @include flex(column,center,center)
-    width: 100px
-    height: 100px
+    width: 120px
+    height: 120px
     margin: 5px
     padding: 5px
     border: solid 1.5px black
+    border-radius: 10px
+    background-color: #fff
     span
         @include txt(700,26px,32px,$txt)
         margin-bottom: 10px

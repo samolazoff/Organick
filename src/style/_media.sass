@@ -4,7 +4,7 @@
         height: 60px
         border-radius: 25px 
     .nav-header
-        padding: 0 10px    
+        padding: 0 10px
 @media screen and (max-width:992px)
     .btn-main
         width: 110px
@@ -39,6 +39,16 @@
         height: 40vh
     .about-us-info
         width: 70%
+    .clock-cont
+        @include flex(column,flex-start,flex-start)
+    .clock-txt-cont
+        width:100%
+    .clock-face-box
+        width:100%
+        @include flex(column,flex-start,flex-start)
+    .timer
+        @include flex(row,space-between,center)
+        width: 100%
 @media screen and (max-width:768px)
     .btn-main
         width: 110px
@@ -126,6 +136,18 @@
        padding: 0 10px
     .footer__txt
         @include txt(400,12px,24px,$txt)
+    .timer-block
+        @include flex(column,center,center)
+        width: 70px
+        height: 70px
+        margin: 5px
+        padding: 5px
+        border: solid 1.5px black
+        border-radius: 10px
+        background-color: #fff
+        span
+            @include txt(700,14px,16px,$txt)
+            margin-bottom: 10px
 .none
     display: none
 .active
