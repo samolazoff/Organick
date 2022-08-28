@@ -637,6 +637,58 @@ body {
   color: #274C5B;
 }
 
+.clock-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock-txt-cont {
+  width: 500px;
+}
+
+.clock__txt {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #525C60;
+}
+
+.clock-face-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.timer-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: solid 1.5px black;
+}
+.timer-block span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #525C60;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   .btn-main {
     width: 125px;
