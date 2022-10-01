@@ -1,0 +1,44 @@
+.modal
+    position: fixed
+    top: 0
+    left: 0
+    background-color: rgba(0,0,0,.5)
+    width: 100%
+    height: 100%
+    @include flex(column,center,center)
+    display: none
+.modal__dialog
+    width: 576px
+    height: 320px
+    border: solid 2px $dark-txt
+    border-radius: 15px
+    background-color: $green
+    @include flex(column,flex-start,center)
+.modal__close
+    padding: 10px
+    align-self: flex-end
+    cursor: pointer 
+    @include txt(400,48px,28px,$dark-txt) 
+.modal__content
+    height: 100%
+    @include flex(column,center,center)
+    form
+        @include flex(column,flex-start,center)
+        .modal__title
+           @include txt(400,24px,28px,$dark-txt) 
+           text-transform: uppercase
+           margin-bottom: 20px
+        input[type="text"],
+        input[type="phone"]
+            width: 280px
+            margin-bottom: 20px
+.modal-active
+    @include flex(column,center,center)
+@media screen and (max-width:576px)
+    .modal__dialog
+        width: 280px
+        height: 320px
+        border: solid 2px $dark-txt
+        @include flex(column,flex-start,center)
+
+

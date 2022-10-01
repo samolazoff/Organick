@@ -59,6 +59,7 @@ article {
 }
 
 body {
+  position: relative;
   background-color: #E5E5E5;
 }
 
@@ -265,6 +266,7 @@ body {
 
 .card_natural {
   background-image: url(../static/img/bg-subtitle-block_1.png);
+  background-repeat: no-repeat;
 }
 .card_natural .block__name,
 .card_natural .block__subname {
@@ -273,6 +275,7 @@ body {
 
 .card_offer {
   background-image: url(../static/img/bg-subtitle-block_2.png);
+  background-repeat: no-repeat;
 }
 
 .about-us {
@@ -642,6 +645,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 40px;
 }
 
 .clock-txt-cont {
@@ -692,6 +696,87 @@ body {
   margin-bottom: 10px;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal__dialog {
+  width: 576px;
+  height: 320px;
+  border: solid 2px #274C5B;
+  border-radius: 15px;
+  background-color: #7EB693;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modal__close {
+  padding: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 28px;
+  color: #274C5B;
+}
+
+.modal__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.modal__content form .modal__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #274C5B;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.modal__content form input[type=text],
+.modal__content form input[type=phone] {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.modal-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .modal__dialog {
+    width: 280px;
+    height: 320px;
+    border: solid 2px #274C5B;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 1200px) {
   .btn-main {
     width: 125px;
