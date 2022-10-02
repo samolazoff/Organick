@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded',()=>{
+    
     const deadLine='2022-12-31';
     
     function getTimeRemaining(endtime){
@@ -16,7 +17,6 @@ window.addEventListener('DOMContentLoaded',()=>{
             'seconds': seconds
         }
     }
-    console.log(getTimeRemaining(deadLine));
 
     function setClock(selector, endtime){
         const timer=document.querySelector(selector),
@@ -38,6 +38,7 @@ window.addEventListener('DOMContentLoaded',()=>{
             }
         }
     }
+
     setClock('.timer', deadLine);
 
 })
