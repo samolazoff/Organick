@@ -11,16 +11,26 @@ html(lang="en")
         link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet")
         link(href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet")
     body
+        // header
         include page/header/header
         main
+            // title-block
             include page/title-block/title-block
+            // subtitle-block
             include page/subtitle-block/subtitle-block
+            // about-us
             include page/about-us/index
+            // our-products
             include page/our-products/index
+            // news
             include page/news/index
+            // contacts
             include page/contacts/index
+            //clock
             include page/clock/index
+            // footer
         include page/footer/index
+        // modal
         include page/modal/index
         script(defer src="js/header.js")
         script(defer src="js/timerPage.js")
