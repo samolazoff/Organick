@@ -234,7 +234,7 @@
     <section class="modal">
       <div class="modal__dialog"><span class="modal__close" data-close>&times </span>
         <div class="modal__content">
-          <form action="#"><span class="modal__title">we will contact you as soon as possible</span>
+          <form action="#"><h2 class="modal__title">we will contact you as soon as possible</h2>
             <input type="text" name="name" required placeholder="Your name">
             <input type="phone" name="phone" required placeholder="Your phone number">
             <button class="btn-big">call me back</button>
@@ -242,9 +242,18 @@
         </div>
       </div>
     </section>
+    <!-- curs-->
+    <section class="curs">
+        <span class="curs__close">&times </span>
+        <label for="rub">RUB</label>
+        <input type="text" id="rub">
+        <label for="usd">USD</label>
+        <input type="text" id="usd">
+    </section>
     <script defer src="js/header.js"></script>
     <script defer src="js/timerPage.js"></script>
     <script defer src="js/choiseProduct.js"></script>
-    <script defer src="js/modalCall.js"></script>
+    <!-- <script defer src="js/modalCall.js"></script> -->
+    <script defer src="js/curs.js"></script>
   </body>
 </html>

@@ -778,6 +778,39 @@ body {
   align-items: center;
 }
 
+/* CURS */
+
+.curs{
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #525C60;
+  border: solid 2px #274C5B;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.curs label,
+.curs input{
+  margin-bottom: 10px;
+}
+
+.curs__close{
+  align-self: flex-end;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 28px;
+}
+
 @media screen and (max-width: 576px) {
   .modal__dialog {
     width: 280px;
@@ -906,6 +939,9 @@ body {
   }
   .contacts-block-soc {
     border: none;
+  }
+  .curs{
+    display: none;
   }
 }
 @media screen and (max-width: 576px) {
