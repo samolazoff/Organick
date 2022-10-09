@@ -9,10 +9,10 @@ const message ={
 }
 
 forms.forEach(item => {
-    postData(item);
+    bindPostData(item);
 })
 
-function postData(form){
+function bindPostData(form){
     form.addEventListener('submit', (e) => {
         e.preventDefault();
 
